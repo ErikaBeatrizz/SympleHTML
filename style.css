@@ -1,0 +1,73 @@
+
+/* SELETORES
+    TAG HTML
+    * - aplica a tudo 
+    #id - ID de uma tag HTML
+    .classe 
+
+*/
+
+.texto {
+    font-size: small;
+}
+
+.texto:hover{     /* quando o mouse passa por cima */
+    background-color: burlywood;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.photo {
+    width: 100%;
+}
+
+.social {
+    width: 50px;
+}
+
+#titulo {
+    background-color: rosybrown;
+    color: bisque;
+    border: 1px solid #ff00;
+    padding: 10px;
+    margin: 10px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;  /* espaçamento */
+}
+
+
+li {                        /*li = seletor (tag selecionada) */
+    display: inline;        /* display = propriedade   | inline = valor */
+} 
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+@media (max-width: 500px){
+    .container{
+    flex-direction: column;
+    }
+}
+
+.container > div {
+    width: 500px;
+}
+
+.nav-button:hover {
+    background-color: mediumslateblue;
+    color: aliceblue;
+}
+
+hr {
+   display: none; 
+}
